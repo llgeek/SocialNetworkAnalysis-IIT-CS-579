@@ -1,0 +1,43 @@
+In this project, I crawl five seed users' twitter accounts to implement the communties discovering and these five users' twittets sentiment analysis. There five seed users are:
+Andrew Ng
+Andrej Karpathy
+Fei-Fei Li
+Yann LeCun
+DeepLearningHub
+These are very famous deep learning researchers (the last one is deep learning communtiy). I chose these five accounts mainly because:
+1. I am interested in deep learning and have followed these five accounts for a long time. I want to analyze the network structure of these five accounts and analyze the sentiment of their posted tweets.
+2. To ensure my network could be a connected component, and each node has high degree, I chose these five accounts who are very similiar and they follow each other. So there would be a high probability that my network crawled starting from these accounts are highly connected.
+
+
+My implementation steps are:
+1. Collecting data
+I collected two data sources, following and follower id dataset is used to build network graph, and tweets dataset is used to do the sentiment analysis.
+More specifically, for every seed user, I crawl their following and followers(each up to 5000 other users) to build the graph. Then I collect these five seed users' most recent tweets(due to twitter API rate limit, here I did not crawl their whole timeline tweets). The new crawled dataset will be saved into new_users and new_tweets folder.
+
+
+2. Clustering
+Based on the network structure I collected in 1st step, I build the ego network and implement the community detection over it. I remove the nodes with degree less than two. I tried the Girvan Newman algorithm to cluster my graph, but the result is not so satisfactory. So I changed another algirhtm in NetworkX and community module. See the reference:
+http://perso.crans.org/aynaud/communities/
+https://bitbucket.org/taynaud/python-louvain/overview
+The module uses Louvain Community Detection algorithm, published by Vincent D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, Renaud Lefebvre, Journal of Statistical Mechanics: Theory and Experiment 2008(10), P10008 (12pp).
+
+I have write the install script in my code, but if you cannot sucessfully run my cluster.py code, please enter following command in my code's home director (./a4/):
+
+cd community-install
+python setup.py install
+
+Then the community module will be sucessfull installed.
+
+To save your time, I give two options. The first one ask you "Read original data or newly downloaded data?". The original data is stored in old_users folder, and newly downloaded data is stored in new_users. If you finish the data collection when you run collect.py, feel free to enter "2" and the clustering is based on your newly downloaded data. I also uploaded the data I crawled in old_users folder, just in case that data collection spends too long.
+
+
+3. Classifying
+I implement the sentiment analysis of these five seed accounts' recent tweets. My analysis is based on the AFINN lexicons. I calculate the positive score and negative score for each tweets, and rank them based on the score. Because the number of tweets is large, so I didn't manually label them as positive or negative, so I cannot give a measure result like accuracy here. This is one limitation.
+
+
+
+Conclusion:
+I do find some interesting phonomenon in my project. Because the five seed account I chose all focuse on deep learning, so their following and follower are highly correlated. These five accounts have many common accounts they all are following. Also most of their follower follow some of them as well. This does make sense, because they share the same interest -- deep learning, and because they are so famous in deep learning community that most of users know them and will follow them. This makes my network graph very compact.
+
+The second interesting phonomenon is that, these five accounts are researchers, so most of their tweets are relevant to the deep learning research. Most of their tweets are positive, but because my sentiment analysis is based on lexicons, so the classification result is not so good. Their tweets are more likely to share some research progress in deep learning, so some comparisions between current research and previous work are unavoidable. These comparisions usually are positive, but lexicon based method may mis-classify them into negative tweets.
+

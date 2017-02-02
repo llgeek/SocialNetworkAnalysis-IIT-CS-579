@@ -1,0 +1,183 @@
+User:		#following:		#followers:
+AndrewYNg		156		5000
+DeepLearningHub		405		5000
+drfeifei		141		5000
+karpathy		437		5000
+ylecun		149		5000
+Total number of users(Remove users with degree < 2): 5108
+Degree distribution:
+degree: 5, num: 148
+degree: 3193, num: 1
+degree: 4, num: 658
+degree: 3157, num: 1
+degree: 2994, num: 1
+degree: 1948, num: 1
+degree: 2, num: 2869
+degree: 2120, num: 1
+degree: 3, num: 1428
+User:		#tweets:
+drfeifei		177
+DeepLearningHub		37
+AndrewYNg		184
+karpathy		174
+ylecun		171
+number of tweets collected: 743
+Number of communities discovered: 5
+Average number of users per community: 1021
+community 0 has 1213 nodes
+community 1 has 1243 nodes
+community 2 has 935 nodes
+community 3 has 854 nodes
+community 4 has 863 nodes
+
+
+Sentiment analysis results:
+Top 10 positive tweets for each user
+
+for user AndrewYNg
+:pos:		neg:		tweets:
+10		0		Amazing weekend! THANK YOU to the amazing speakers and the in-person &amp; live-stream attendees of Bay Area DL School! https://t.co/oVjsvFPsl9
+8		0		We're lucky the AI community is very open, and top researchers freely share ideas+code. Hope we can keep it that way.
+8		0		.@alexisylchan Ha ha! With latest speech results, hope we can inspire HCI researchers to do more projects on speech!
+8		0		The US has won 1,000 Olympic gold medals-amazing! Cool data visualizations here: https://t.co/p2JBC61ZMD
+6		0		Even Google's brilliant @astroteller is adopting analogy of AI being like Electricity! #AIisTheNewElectrcity https://t.co/zwwhYMotST
+6		0		"Microsoft is betting the company on AI" with one of its best execs @harryshum at the helm. IMO a good bet! :) https://t.co/81ayLT4RoO
+6		0		Wow over 1,000 people signed up in last 10 min! Join them &amp; get free draft of book: https://t.co/TgvKPahEs1 https://t.co/EplOimy6TL
+6		0		#ISC16 is starting! Super excited to speak here shortly. Baidu &lt;3 HPC https://t.co/be1Vo78vpg
+6		0		Impressed at Microsoft Hololens tech. AR has exciting future, but adoption will be slow. https://t.co/eyoy0I9SVH
+6		1		Economist says we need better Welfare to solve poverty. Yes, but we need better Education even more. https://t.co/IZCa0AhZjm
+
+for user DeepLearningHub
+:pos:		neg:		tweets:
+7		4		@FPRoth Ha Ha. Nice thought but I try to spam not just on NN but on ML in general. Even the name DL is a restricted prefix :-)
+4		0		“Machine Learning is Fun Part 5: Language Translation with Deep Learning and the Magic of Sequences” by @ageitgey https://t.co/C9PMMpLw3G
+3		0		This free Deep Learning with TensorFlow course provides a solid introduction to the use of Tensorflow https://t.co/vUHodztst7
+3		0		Great suggestions! https://t.co/2kIrj4IeoI
+2		0		@born2data Never. Had retweeted the original Asimov link in my later retweet. Cheers!
+2		0		An Exclusive Look at How AI and Machine Learning Work at Apple via @wildml https://t.co/wqzG3TdDOC
+2		0		@robert_wolff thanks for sharing. :(
+1		1		@paraboloo Sorry about that.. Have shared a new link
+1		1		@ThePeshwa Sorry about that.. Have shared a new link.
+1		2		How big data is unfair https://t.co/0u6GgxoaKr
+
+for user drfeifei
+:pos:		neg:		tweets:
+13		0		An amazing night of breathtaking talks on AI. And awesome remarks by Megan Smith @USCTO We will release videos soon. https://t.co/2k9zZyh42q
+10		0		Good luck to all of us tomorrow. We are all connected, and we are all better when others are better. &lt;3 https://t.co/oDeLS5JzIc
+9		1		@MonikaHonig @Digiday thanks for the invite! Very honored. Unfortunately I'm not traveling this spring due to maternity leave. Best wishes.
+8		0		Awe inspiring talk by @timoreilly about #AI 's potential to help the world. Love the quote below! #WHFrontiers https://t.co/TmwnQgNS6E
+8		0		My lab is awarded a Pioneer in AI award at #GTC16 and received this baby (DGX-1)! Bravo students! Thank you @nvidia https://t.co/V6jtlHkEAZ
+7		0		Very excited to attend the #3dv conf. Amazing speakers! Where deep learning meets deep understanding! @StanfordEng https://t.co/I97wNTuXit
+7		0		Thoughtful piece by @jasontanz Soon We Won’t Program Computers. We’ll Train Them Like Dogs https://t.co/77onc9PljD via @WIRED
+7		0		@humanchallenge1 most computer vision researchers start from a computer science or an electrical engineering major. Good luck.
+6		0		Nice! Good job @RanjayKrishna ! https://t.co/xhF3MDnDqv
+6		0		Visited @zooxlife the stealth self-driving car startup yesterday. Had a great ride (literally), and am impressed by the #AI talents there.
+
+for user karpathy
+:pos:		neg:		tweets:
+11		0		Great discussion today at dinner @ OpenAI on measuring fun of a party with cameras/microphones and then maximizing fun. Action space TBD.
+9		0		when you search "best ribs" on Yelp the first result is a place with someone's review that says "Not the best ribs I've had...". great.
+8		0		Tried out Google Earth VR in Vive. Had high hopes but it's a half-baked "kinda cool" tech demo I won't go back to. Like most other things VR
+8		0		Awesome work by @crizcraig on DeepDrive: https://t.co/anhUMikPjM Using GTA 5 simulator to benchmark self-driving car models. Fun videos
+8		0		@adamgdunn I'm so glad I dodged that bullet. It smelled like a Spore repeat so I didn't spend time looking forward to it. Best decision ever
+7		0		Looks like winner might be a large ensemble of Inception/Inception-ResNet/Wide ResNet/others. i.e. not clear how much new we'll learn.
+7		0		WaveNet: A Generative Model for Raw Audio https://t.co/Nf709Snt94 very nice work from DeepMind, fun samples!
+7		0		Google Brain AMA on Reddit https://t.co/fEdStO3uEF a lot of good reading by a lot of awesome people
+7		1		How can a couch (a block of wood/soft stuff/cloth) be worth $2K when a top of the line iPhone (a marvel of nanoengineering) is $1K.
+7		2		"Where will Artificial Intelligence come from?" https://t.co/z3zMRWl0Mf very nice blog post with fun pointers I missed, from back in April
+
+for user ylecun
+:pos:		neg:		tweets:
+10		0		The Lovie Awards folks put together a fun video about me that they showed at the award ceremony. https://t.co/FCJJyVeRCm
+7		0		The Lovie Awards folks put together a fun video about my work. 
+
+They showed it at the ceremony where I received... https://t.co/J1bj2I62lq
+7		0		Amazing interview of President Obama on AI. 
+
+His knowledge and understanding of the issues is very impressive.... https://t.co/2G7s4kEJi3
+6		0		Where Nobel laureates ddid their undergrad.
+
+If you studied at ENS you have 0.135% chances of winning a Nobel.... https://t.co/ohhn8TDuuT
+6		0		Welcome to FAIR Devi and Dhruv, and congrats on your new double gig at Georgia Tech. https://t.co/aDEaCLRgjU
+5		2		Lovie Award videos. 
+With thanks to Michael Littman for suggesting the last sentence. 
+Crowdsourcing on Facebook... https://t.co/OIrv0gZrnB
+4		0		@deanpomerleau @boredyannlecun
+@ylecun != @boredyannlecun
+I don't know who @boredyannlecun is and I wanna keep it that way (it's more fun)
+4		0		@boredyannlecun like a ConvNet poster at CVPR 2011, or like a non-ConvNet poster at CVPR 2016.
+4		0		Awesome speaker line up at the NYU CDS "text as data" seminar series. https://t.co/rivN1dUDLd
+4		0		The new class of students in the NYU Center for Data Science Master's program: 80 amazing students selected from... https://t.co/RO28dZHueB
+Top 10 negative tweets for each user
+
+for user AndrewYNg
+:pos:		neg:		tweets:
+3		7		"Only way to stop a bad guy with gun is a good guy with gun." Silly argument. Didn't work in #Orlando. https://t.co/Yufy5dP16N
+0		6		CEOs are worrying how future AI inventions will disrupt their business. They should worry as well about AI invented 5 years ago.
+0		5		Bummer--George Hotz's comma.ai moving overseas would be a loss to the US self-driving ecosystem. @comma_ai https://t.co/wL8ASCWoZI
+0		4		Why do people think the trolley problem is critical for self-driving cars? The trolley problem wasn't critical even for trolleys.
+1		4		Yes. Specific human jobs becoming obsolete is not the same as humanity becoming obsolete!
+1		4		Wrong! Need basic income because AI=&gt;safety net for labor displacements. Not because humans are obsolete. https://t.co/z97tYJeQbq
+1		4		When X="Trolley problem," Y="Should my autopilot slam into big white truck parked across the road," I would prioritize Y.
+3		4		US immigration policy hurts our ability to innovate. https://t.co/EhP7kMn3WT In CA I see the harm everyday, yet DC doesn't get it.
+4		4		Bloomberg rightly criticizes creative financials. Since when did "positive gross margin" mean "profitable"? https://t.co/nyfWA5Vt0T
+0		3		Larry Summers points out job destruction is already here. Time to double-down on LIFELONG education. @coursera… https://t.co/bVonr9yoWm
+
+for user DeepLearningHub
+:pos:		neg:		tweets:
+7		4		@FPRoth Ha Ha. Nice thought but I try to spam not just on NN but on ML in general. Even the name DL is a restricted prefix :-)
+0		3		A handy neural networks architecture cheat sheet https://t.co/8NlQ7JFijp
+1		2		How big data is unfair https://t.co/0u6GgxoaKr
+0		1		Sorry ARIMA, but I’m Going Bayesian | Stitch Fix Technology – Multithreaded https://t.co/vVZVhJrH6l
+1		1		@paraboloo Sorry about that.. Have shared a new link
+1		1		@ThePeshwa Sorry about that.. Have shared a new link.
+0		0		Building an Efficient Neural Language Model Over a Billion Words https://t.co/2R2AJnDagn
+0		0		#ICYMI https://t.co/iFvkFV7tax
+0		0		#ICYMI https://t.co/GvCfPbbl5b
+0		0		Why deep learning is suddenly changing your life via @FortuneMagazine https://t.co/saNWABAaX3
+
+for user drfeifei
+:pos:		neg:		tweets:
+2		3		5:00am, leaving for NYC to deliver a keynote at #icml2016 . I hope I can talk about intelligence when I'm half brain dead ;-)
+3		3		Very excited to be on stage with @TomStoppard37 to discuss his play The Hard Problem this Saturday @ACTSanFrancisco… https://t.co/ObUI8kzs44
+0		2		@karpathy I'm jealous :) Plz say "hi" to Roberto and Giovanni for me. :)
+0		2		Day7 SAILORS! Prof. Mykel Kochenderfer, collision avoidance, MDP, Jackrabbot, and more! https://t.co/IVIH4xas5g https://t.co/byJUGQLCGK
+0		2		Sunday morning musing: It's #AI summer, not spring. And why the media got it wrong about the 1990s and 2000s wrt AI. https://t.co/VH0ThTQGMB
+0		2		@MarkHolmanATK replied! Apologize for the delay!
+1		2		Yeah very sad. We will try to work something out with Stanford in the future. https://t.co/80Dk5icusE
+2		2		Whether it's #NuTonomy or #Uber, L4 driving will come gradually in steps. We should not confuse a clear vision with a short distance.
+2		2		Artificial Intelligence Has a ‘Sea of Dudes’ Problem https://t.co/ILgNR8jXLh (Thank you @jackclarkSF for bringing up this topic!)
+3		2		Agree! "Bill and Melinda Gates think the AI dream is 'finally arriving' — but there's a big problem" https://t.co/jLbWUjGlig via sai
+
+for user karpathy
+:pos:		neg:		tweets:
+6		9		Falcon 9 first stage landed! Again. It's so exciting that it's so boring. Maybe it will soon be boring to be excited about it being boring.
+3		7		@michael_nielsen our bodies are too damn efficient. A really good feature until recently, a cruel bug since.
+0		6		dismayed with how much boring/basic furniture is out there &amp; how hard it is to find alternatives. Why get a lamp you can't even ssh into
+0		4		@TimHaines Cafe Venetia and Old Union are both highly suspicious. I visited each 5 times max last year but I have 16/18 charges from them
+0		4		Making slides for my Saturday lecture @ https://t.co/2J17OZpbJC. I know I complained about slide making while ago, but now I miss it. a bit.
+0		4		New OpenAI office. I think we went from an org with highest AI researchers per sq meter to lowest. Got lost twice. Claimed a floor as mine.
+0		4		On climate change https://t.co/BSz35KcLf9 one of more detailed (and scary) posts. Feedback loops, time lags, extinction events
+1		4		@LesGuessing I went through the same experience exactly. Was ready to be superman and instead was a weird gozilla with restricted vision
+2		4		I ran for 20 minutes yesterday and burned 260 cals. That's 11 square blocks of my favorite chocolate in our microkitchen. cruel world :(
+2		4		@aac yeah wasn't clear if bugs or fraud but apparently author was implicated in other shady kickstarter stuff, so possibly latter
+
+for user ylecun
+:pos:		neg:		tweets:
+0		4		Tim O'Reilly talking about AI at the White House Frontiers Conference. 
+
+First slide: "WTF?" 
+
+"What's the future?"
+0		3		@barmaley_exe @kchonyc just @ylecun AFAICT. No one seemed bored.
+4		3		@boredyannlecun he is a very famous architect. But he does look like Dr. Evil. 
+And who do "we" look like?
+0		2		@deanpomerleau @SCSatCMU @jackclarkSF and by "discussed" you must mean "harshly criticized"
+0		2		@deanpomerleau it was akin to what we now call "target prop". It's equivalent to backprop in the small error limit.
+0		2		@boredyannlecun it was actually a problem with the server that redirected requests to the backend Openreview server.
+0		2		I just think those 27% have the wrong objective function. https://t.co/2SPwc7RUvd
+0		2		@jackclarkSF the whole secrecy makes @boredyannlecun less bored.
+0		2		@boredyannlecun but ban assault ConvNets and over-32-GPU clips.
+1		2		I've been inducted into New Jersey Inventor Hall of Fame.
+
+OK, this is slightly embarrassing: at the same time I... https://t.co/YADrJOwGZo
