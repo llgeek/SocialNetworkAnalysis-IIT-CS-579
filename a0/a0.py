@@ -38,10 +38,9 @@ import time
 from TwitterAPI import TwitterAPI
 import json
 
-consumer_key = '0uEmGmXVU1NwzvOnPVhPG5pbl'
-consumer_secret = 'Bqgap0TYRRwePGLfSSTjdhGA9nVJbmMgeeGtubsjZdSYl8pOGw'
-access_token = '3612124212-deDeXB1AXVykupCwJZ8QS8euoT6uDq73lGD8vuX'
-access_token_secret = 'GkHrHGyMCpzhC2eHCNQoxfsRusNhYINKspR0HN4D2ODE8'
+import config
+
+consumer_key, consumer_secret, access_token, access_token_secret = config.consumer_key, config.consumer_secret, config.access_token, config.access_token_secret
 
 
 # This method is done for you.
